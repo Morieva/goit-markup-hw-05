@@ -100,6 +100,8 @@ img {
 }
 .contacts-link {
   color: var(--primary-text-color);
+  display: flex;
+  align-items: center;
 }
 .link.current,
 .nav-link:hover,
@@ -128,6 +130,7 @@ img {
 .section-hero {
   background-color: var(--background-secondary-color);
   margin: 0 auto;
+  width: 1600px;
   padding: 200px 0px;
   text-align: center;
   background-image: linear-gradient(rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)),
@@ -321,8 +324,10 @@ img {
   justify-content: center;
   align-items: center;
   color: var(--icon);
+  outline: transparent;
 }
-.clients-link:hover {
+.clients-link:hover,
+.clients-link:focus {
   color: var(--accent-color);
   border-color: var(--accent-color);
 }
@@ -386,6 +391,7 @@ img {
 }
 .card-link {
   display: block;
+  outline: transparent;
 }
 .card-link:hover,
 .card-link:focus {

@@ -190,7 +190,6 @@ img {
   align-items: center;
   margin-bottom: 30px;
   background-color: var(--background-filter-color);
-  width: 270px;
   height: 120px;
 }
 .feature-item:not(:last-child) {
@@ -278,6 +277,9 @@ img {
   display: flex;
   justify-content: center;
   text-align: center;
+}
+.media-item:not(:last-child) {
+  margin-right: 10px;
 }
 .media-link {
   color: var(--icon);
